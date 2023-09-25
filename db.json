@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "userId": 8,
+      "id": 4,
+      "title": "Typescript-1",
+      "content": "repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque"
+    },
+    {
+      "title": "JavaScript",
+      "content": "JavaScript is light weight, single threded object oriented programing langauge",
+      "userId": 4,
+      "id": 5
+    },
+    {
+      "userId": 3,
+      "title": "Typescript version",
+      "content": "repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque",
+      "id": 6
+    },
+    {
+      "userId": 10,
+      "title": "Angular",
+      "content": "Angular is javascript framework, which is used to create single page application",
+      "id": 7
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

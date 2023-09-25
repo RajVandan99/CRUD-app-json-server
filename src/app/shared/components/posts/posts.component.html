@@ -1,0 +1,22 @@
+<div class="row mt-4">
+    <div class="col-sm-6 offset-sm-3">
+        <div class="card mb-4" *ngFor="let post of postsAray">
+            <div class="card-header text-capitalize">
+                <h2>
+                    {{post.title}}
+                </h2>
+            </div>
+            <div class="card-body">
+                <p>
+                    {{post.content}}
+                </p>
+            </div>
+            <div class="card-footer">
+                <div class="text-right">
+                    <button type="button" class="btn btn-info" 
+                    [routerLink]="['/posts', post.id]">Show more</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

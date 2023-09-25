@@ -1,0 +1,29 @@
+<div class="row">
+    <div class="col-md-8 offset-md-2">
+        <div class="card" *ngIf="postObj">
+            <div class="card-header text-capitalize">
+                <h2>
+                    {{postObj.title}}
+                </h2>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-6 d-flex">
+                        <p class="mb-auto">
+                            {{postObj.content}}
+                        </p>
+                        <div class="align-self-end d-flex justify-content-between">
+                            <button type="button" class="btn btn-primary mr-4"
+                            [routerLink]="['/create', postObj.id]">Edit</button>
+                            <button type="button" class="btn btn-danger"
+                            (click)="onDeletePost()">Delete</button>
+                        </div>
+                    </div>
+                    <div class="col-6 banner">
+                        <img src="https://source.unsplash.com/user/c_v_r" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
